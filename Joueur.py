@@ -9,7 +9,8 @@ class Joueur:
         self.force = 10
         self.armure = 10
 
-nom = input("Entrez le nom du joueur : ")
-player = Joueur()
-player.nom = nom
-print(f"Le joueur {player.nom} a {player.sante} de vie et {player.force} de force et {player.armure} d'armure")
+def createplayer():
+    nom = input("Entrez le nom du joueur : ")
+    player = Joueur()
+    player.nom = nom
+    print(f"Le joueur {player.nom} a {player.sante} de vie et {player.force} de force et {player.armure} d'armure")

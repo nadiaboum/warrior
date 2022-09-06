@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from random import randint
+from gen import createmob
+
 
 class Joueur():
     def __init__(self):
@@ -12,7 +14,7 @@ class Joueur():
         self.armure=5
 
 monstre=Joueur()
-monstre.pseudo="Monstre"
+monstre.pseudo=gen()
 monstre.health=randint(5,20)
 monstre.force=randint(3,8)
 monstre.armure=randint(0,5)

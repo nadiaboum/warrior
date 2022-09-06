@@ -1,6 +1,6 @@
 from Joueur import *
-from gen    import *
-from Monstres import
+
+from gen import *
 
 
 createplayer()
