@@ -21,3 +21,4 @@ nom=input("Quel est votre nom ? : ")
 joueur.pseudo=nom
 print(f"{joueur.pseudo} a {joueur.sante} points de vie {joueur.force} points de force et {joueur.armure}")
 print(f"il vous reste {joueur.sante}")
+print("nouvelle ligne")
